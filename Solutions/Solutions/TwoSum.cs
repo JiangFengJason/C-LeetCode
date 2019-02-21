@@ -6,7 +6,7 @@ namespace Solutions
 {
     class TwoSum
     {
-        public int[] toTwoSum(int [] nums,int target)
+        public int[] ToTwoSum(int [] nums,int target)
         {
             List<int[]> result = new List<int[]>();
             int[] aa = new int[2];

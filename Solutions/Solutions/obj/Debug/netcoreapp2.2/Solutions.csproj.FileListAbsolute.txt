@@ -3,7 +3,6 @@ D:\Person\study\leetcode\Solutions\Solutions\bin\Debug\netcoreapp2.2\Solutions.r
 D:\Person\study\leetcode\Solutions\Solutions\bin\Debug\netcoreapp2.2\Solutions.runtimeconfig.dev.json
 D:\Person\study\leetcode\Solutions\Solutions\bin\Debug\netcoreapp2.2\Solutions.dll
 D:\Person\study\leetcode\Solutions\Solutions\bin\Debug\netcoreapp2.2\Solutions.pdb
-D:\Person\study\leetcode\Solutions\Solutions\obj\Debug\netcoreapp2.2\Solutions.csprojAssemblyReference.cache
 D:\Person\study\leetcode\Solutions\Solutions\obj\Debug\netcoreapp2.2\Solutions.csproj.CoreCompileInputs.cache
 D:\Person\study\leetcode\Solutions\Solutions\obj\Debug\netcoreapp2.2\Solutions.AssemblyInfoInputs.cache
 D:\Person\study\leetcode\Solutions\Solutions\obj\Debug\netcoreapp2.2\Solutions.AssemblyInfo.cs
