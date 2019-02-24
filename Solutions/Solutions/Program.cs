@@ -29,10 +29,16 @@ namespace Solutions
             //    result = result.next;
             //}
 
-            Reverse Solution3 = new Reverse();
-            int origin =1534236469;
-            Console.WriteLine(origin);
-            int result = Solution3.toReverse(origin);
+            //Reverse Solution3 = new Reverse();
+            //int origin =1534236469;
+            //Console.WriteLine(origin);
+            //int result = Solution3.toReverse(origin);
+            //Console.WriteLine(result);
+
+            int number = 121;
+            bool result = false;
+            PalindromeNumber pn = new PalindromeNumber();
+            result = pn.IsPalindrome(number);
             Console.WriteLine(result);
         }
     }
