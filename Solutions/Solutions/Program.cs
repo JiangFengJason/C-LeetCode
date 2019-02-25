@@ -35,11 +35,17 @@ namespace Solutions
             //int result = Solution3.toReverse(origin);
             //Console.WriteLine(result);
 
-            int number = 121;
-            bool result = false;
-            PalindromeNumber pn = new PalindromeNumber();
-            result = pn.IsPalindrome(number);
-            Console.WriteLine(result);
+            //int number = 121;
+            //bool result = false;
+            //PalindromeNumber pn = new PalindromeNumber();
+            //result = pn.IsPalindrome(number);
+            //Console.WriteLine(result);
+
+            string Roman = "MCMXCIV";
+            int num;
+            RomantoInt rom = new RomantoInt();
+            num = rom.RomanToInt(Roman);
+            Console.WriteLine(num);
         }
     }
 }
