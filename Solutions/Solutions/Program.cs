@@ -41,11 +41,17 @@ namespace Solutions
             //result = pn.IsPalindrome(number);
             //Console.WriteLine(result);
 
-            string Roman = "MCMXCIV";
-            int num;
-            RomantoInt rom = new RomantoInt();
-            num = rom.RomanToInt(Roman);
-            Console.WriteLine(num);
+            //string Roman = "MCMXCIV";
+            //int num;
+            //RomantoInt rom = new RomantoInt();
+            //num = rom.RomanToInt(Roman);
+            //Console.WriteLine(num);
+
+            string[] objects = { "aa", "a" };
+            string result;
+            LongestCommonPre pre = new LongestCommonPre();
+            result = pre.LongestCommonPrefix(objects);
+            Console.WriteLine(result);
         }
     }
 }
