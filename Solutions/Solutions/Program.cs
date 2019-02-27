@@ -47,10 +47,16 @@ namespace Solutions
             //num = rom.RomanToInt(Roman);
             //Console.WriteLine(num);
 
-            string[] objects = { "aa", "a" };
-            string result;
-            LongestCommonPre pre = new LongestCommonPre();
-            result = pre.LongestCommonPrefix(objects);
+            //string[] objects = { "aa", "a" };
+            //string result;
+            //LongestCommonPre pre = new LongestCommonPre();
+            //result = pre.LongestCommonPrefix(objects);
+            //Console.WriteLine(result);
+
+            string str = "{{";
+            bool result = false;
+            ValidParentheses vp = new ValidParentheses();
+            result = vp.IsValid(str);
             Console.WriteLine(result);
         }
     }
