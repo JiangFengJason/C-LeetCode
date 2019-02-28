@@ -53,11 +53,17 @@ namespace Solutions
             //result = pre.LongestCommonPrefix(objects);
             //Console.WriteLine(result);
 
-            string str = "{{";
-            bool result = false;
-            ValidParentheses vp = new ValidParentheses();
-            result = vp.IsValid(str);
-            Console.WriteLine(result);
+            //string str = "{{";
+            //bool result = false;
+            //ValidParentheses vp = new ValidParentheses();
+            //result = vp.IsValid(str);
+            //Console.WriteLine(result);
+
+            string str = "aab";
+            int res = 0;
+            LengthOfLongestSubstring lls = new LengthOfLongestSubstring();
+            res = lls.FindLengthOfLongestSubstring(str);
+            Console.WriteLine(res);
         }
     }
 }
