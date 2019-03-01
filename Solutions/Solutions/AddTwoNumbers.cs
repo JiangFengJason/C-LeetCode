@@ -4,12 +4,7 @@ using System.Text;
 
 namespace Solutions
 {
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int x) { val = x; }
-    }
+    
     class AddTwoNumbers
     {
         public ListNode ToAddTwoNumbers(ListNode l1, ListNode l2)

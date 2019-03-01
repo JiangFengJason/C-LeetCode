@@ -2,6 +2,12 @@
 
 namespace Solutions
 {
+    public class ListNode
+    {
+        public int val;
+        public ListNode next;
+        public ListNode(int x) { val = x; }
+    }
     class Program
     {
         static void Main(string[] args)
@@ -59,11 +65,27 @@ namespace Solutions
             //result = vp.IsValid(str);
             //Console.WriteLine(result);
 
-            string str = "aab";
-            int res = 0;
-            LengthOfLongestSubstring lls = new LengthOfLongestSubstring();
-            res = lls.FindLengthOfLongestSubstring(str);
-            Console.WriteLine(res);
+            //string str = "aab";
+            //int res = 0;
+            //LengthOfLongestSubstring lls = new LengthOfLongestSubstring();
+            //res = lls.FindLengthOfLongestSubstring(str);
+            //Console.WriteLine(res);
+
+            MergeTwoSortedLists merge = new MergeTwoSortedLists();
+            ListNode l1 = new ListNode(1);
+            l1.next = new ListNode(2);
+            l1.next.next = new ListNode(4);
+
+            ListNode l2 = new ListNode(3);
+            l2.next = new ListNode(5);
+            l2.next.next = new ListNode(6);
+            
+            ListNode result = merge.MergeTwoLists(l1, l2);
+            while (result != null)
+            {
+                Console.WriteLine(result.val);
+                result = result.next;
+            }
         }
     }
 }
