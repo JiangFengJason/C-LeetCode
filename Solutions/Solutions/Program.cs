@@ -71,21 +71,26 @@ namespace Solutions
             //res = lls.FindLengthOfLongestSubstring(str);
             //Console.WriteLine(res);
 
-            MergeTwoSortedLists merge = new MergeTwoSortedLists();
-            ListNode l1 = new ListNode(1);
-            l1.next = new ListNode(2);
-            l1.next.next = new ListNode(4);
+            //MergeTwoSortedLists merge = new MergeTwoSortedLists();
+            //ListNode l1 = new ListNode(1);
+            //l1.next = new ListNode(2);
+            //l1.next.next = new ListNode(4);
 
-            ListNode l2 = new ListNode(3);
-            l2.next = new ListNode(5);
-            l2.next.next = new ListNode(6);
-            
-            ListNode result = merge.MergeTwoLists(l1, l2);
-            while (result != null)
-            {
-                Console.WriteLine(result.val);
-                result = result.next;
-            }
+            //ListNode l2 = new ListNode(3);
+            //l2.next = new ListNode(5);
+            //l2.next.next = new ListNode(6);
+
+            //ListNode result = merge.MergeTwoLists(l1, l2);
+            //while (result != null)
+            //{
+            //    Console.WriteLine(result.val);
+            //    result = result.next;
+            //}
+
+            RemoveDuplicatesfromSortedArray tore = new RemoveDuplicatesfromSortedArray();
+            int[] nums = { 1, 1, 1, 2 };
+            int num = tore.RemoveDuplicates(nums);
+            Console.WriteLine(num);
         }
     }
 }
