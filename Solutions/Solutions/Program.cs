@@ -87,10 +87,16 @@ namespace Solutions
             //    result = result.next;
             //}
 
-            RemoveDuplicatesfromSortedArray tore = new RemoveDuplicatesfromSortedArray();
-            int[] nums = { 1, 1, 1, 2 };
-            int num = tore.RemoveDuplicates(nums);
-            Console.WriteLine(num);
+            //RemoveDuplicatesfromSortedArray tore = new RemoveDuplicatesfromSortedArray();
+            //int[] nums = { 1, 1, 1, 2 };
+            //int num = tore.RemoveDuplicates(nums);
+            //Console.WriteLine(num);
+
+            RemoveElement tore = new RemoveElement();
+            int[] nums = { 0,1,2,2,3,0,4,2};
+            int val = 2;
+            int res = tore.toRemoveElement(nums, val);
+                Console.WriteLine(res);
         }
     }
 }
