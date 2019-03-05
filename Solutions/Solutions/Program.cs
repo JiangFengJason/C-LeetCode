@@ -92,11 +92,17 @@ namespace Solutions
             //int num = tore.RemoveDuplicates(nums);
             //Console.WriteLine(num);
 
-            RemoveElement tore = new RemoveElement();
-            int[] nums = { 0,1,2,2,3,0,4,2};
-            int val = 2;
-            int res = tore.toRemoveElement(nums, val);
-                Console.WriteLine(res);
+            //RemoveElement tore = new RemoveElement();
+            //int[] nums = { 0,1,2,2,3,0,4,2};
+            //int val = 2;
+            //int res = tore.toRemoveElement(nums, val);
+            //    Console.WriteLine(res);
+
+            ImplementStr imp = new ImplementStr();
+            string haystack = "hello";
+            string needle = "ll";
+            int res = imp.StrStr(haystack, needle);
+            Console.WriteLine(res);
         }
     }
 }
