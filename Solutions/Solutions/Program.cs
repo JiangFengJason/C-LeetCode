@@ -98,10 +98,16 @@ namespace Solutions
             //int res = tore.toRemoveElement(nums, val);
             //    Console.WriteLine(res);
 
-            ImplementStr imp = new ImplementStr();
-            string haystack = "hello";
-            string needle = "ll";
-            int res = imp.StrStr(haystack, needle);
+            //ImplementStr imp = new ImplementStr();
+            //string haystack = "hello";
+            //string needle = "ll";
+            //int res = imp.StrStr(haystack, needle);
+            //Console.WriteLine(res);
+
+            ZigZagConversion zig = new ZigZagConversion();
+            string ori = "ABCD";
+            int num = 3;
+            string res = zig.Convert(ori, num);
             Console.WriteLine(res);
         }
     }
