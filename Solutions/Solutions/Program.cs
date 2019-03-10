@@ -110,10 +110,15 @@ namespace Solutions
             //string res = zig.Convert(ori, num);
             //Console.WriteLine(res);
 
-            SearchInsertPosition sea = new SearchInsertPosition();
-            int[] nums = { 1, 3, 5, 6 };
-            int target = 7;
-            int res = sea.SearchInsert(nums, target);
+            //SearchInsertPosition sea = new SearchInsertPosition();
+            //int[] nums = { 1, 3, 5, 6 };
+            //int target = 7;
+            //int res = sea.SearchInsert(nums, target);
+            //Console.WriteLine(res);
+
+            StringtoInteger sti = new StringtoInteger();
+            string str = "0-1";
+            int res = sti.MyAtoi(str);
             Console.WriteLine(res);
         }
     }
