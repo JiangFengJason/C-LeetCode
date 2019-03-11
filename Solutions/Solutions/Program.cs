@@ -116,9 +116,14 @@ namespace Solutions
             //int res = sea.SearchInsert(nums, target);
             //Console.WriteLine(res);
 
-            StringtoInteger sti = new StringtoInteger();
-            string str = "0-1";
-            int res = sti.MyAtoi(str);
+            //StringtoInteger sti = new StringtoInteger();
+            //string str = "0-1";
+            //int res = sti.MyAtoi(str);
+            //Console.WriteLine(res);
+
+            CountandSay cas = new CountandSay();
+            int count = 4;
+            string res = cas.toCountAndSay(count);
             Console.WriteLine(res);
         }
     }
