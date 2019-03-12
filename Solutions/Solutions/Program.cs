@@ -121,10 +121,15 @@ namespace Solutions
             //int res = sti.MyAtoi(str);
             //Console.WriteLine(res);
 
-            CountandSay cas = new CountandSay();
-            int count = 4;
-            string res = cas.toCountAndSay(count);
-            Console.WriteLine(res);
+            //CountandSay cas = new CountandSay();
+            //int count = 4;
+            //string res = cas.toCountAndSay(count);
+            //Console.WriteLine(res);
+
+            ContainerWithMostWater wat = new ContainerWithMostWater();
+            int[] height = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
+            int water = wat.MaxArea(height);
+            Console.WriteLine(water);
         }
     }
 }
