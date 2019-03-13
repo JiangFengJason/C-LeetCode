@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Solutions
 {
@@ -126,10 +127,15 @@ namespace Solutions
             //string res = cas.toCountAndSay(count);
             //Console.WriteLine(res);
 
-            ContainerWithMostWater wat = new ContainerWithMostWater();
-            int[] height = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
-            int water = wat.MaxArea(height);
-            Console.WriteLine(water);
+            //ContainerWithMostWater wat = new ContainerWithMostWater();
+            //int[] height = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
+            //int water = wat.MaxArea(height);
+            //Console.WriteLine(water);
+
+            _3Sum s = new _3Sum();
+            int[] num = { -1, 0, 1, 2, -1, -4 };
+            IList<IList<int>> res = s.ThreeSum(num);
+            
         }
     }
 }
