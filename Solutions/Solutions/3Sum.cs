@@ -13,48 +13,40 @@ namespace Solutions
             IList<IList<int>> result = new List<IList<int>>();
             if (nums.Length <= 2)
                 return result;
-            int m;
-            for(m=0;m<nums.Length;m++)
+            string str;
+            Dictionary<string, bool> map = new Dictionary<string, bool>();
+            for (int a = 0; a <= nums.Length - 3; a++)
             {
-                if (nums[m] != 0)
-                    break;
-            }
-            if (m==nums.Length)
-            {
-                IList<int> success = new List<int>();
-                success.Add(0);
-                success.Add(0);
-                success.Add(0);
-                result.Add(success);
-                return result;
-            }
-            for (int i = 0; i < nums.Length; i++)
-            {
-                for (int j = i + 1; j < nums.Length; j++)
+                int b = a + 1;
+                int c = nums.Length - 1;
+                while (b < c)
                 {
-                    for (int k = j + 1; k < nums.Length; k++)
+                    if (nums[a] + nums[b] + nums[c] == 0)
                     {
-                        if (nums[i] + nums[j] + nums[k] == 0)
+                        str = nums[a].ToString() + nums[b].ToString() + nums[c].ToString();
+                        if (map.ContainsKey(str))
                         {
-                            IList<int> success = new List<int>();
-                            success.Add(nums[i]);
-                            success.Add(nums[j]);
-                            success.Add(nums[k]);
-                            result.Add(success);
-                            break;
+                            b++;
+                            c--;
                         }
+                        else
+                        {
+                            IList<int> triplet = new List<int> { nums[a], nums[b], nums[c] };
+                            map.Add(str, true);
+                            result.Add(triplet);
+                            b++;
+                            c--;
+                        }
+                        
                     }
+                    else if (nums[a] + nums[b] + nums[c] > 0)
+                        c--;
+                    else
+                        b++;
                 }
             }
-            for(int l=0;l<result.Count;l++)
-            {
-                for (int o=1;o< result.Count;o++)
-                {
-                    if (result[l].All(result[o].Contains) && result[l].Count == result[o].Count)
-                        result.Remove(result[o]);
-                }
-            }
-            return result;
+            
+             return result;
         }
     }
 }
