@@ -132,9 +132,11 @@ namespace Solutions
             //int water = wat.MaxArea(height);
             //Console.WriteLine(water);
 
-            _3Sum s = new _3Sum();
-            int[] num = { -1, 0, 1, 2, -1, -4 };
-            IList<IList<int>> res = s.ThreeSum(num);
+            //_3Sum s = new _3Sum();
+            //int[] num = { -1, 0, 1, 2, -1, -4 };
+            //IList<IList<int>> res = s.ThreeSum(num);
+
+            
             
         }
     }
