@@ -8,4 +8,3 @@ D:\Person\study\leetcode\Solutions\Solutions\obj\Debug\netcoreapp2.2\Solutions.A
 D:\Person\study\leetcode\Solutions\Solutions\obj\Debug\netcoreapp2.2\Solutions.AssemblyInfo.cs
 D:\Person\study\leetcode\Solutions\Solutions\obj\Debug\netcoreapp2.2\Solutions.dll
 D:\Person\study\leetcode\Solutions\Solutions\obj\Debug\netcoreapp2.2\Solutions.pdb
-D:\Person\study\leetcode\Solutions\Solutions\obj\Debug\netcoreapp2.2\Solutions.csprojAssemblyReference.cache
