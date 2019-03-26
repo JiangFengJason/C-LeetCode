@@ -1,6 +1,6 @@
 import math
 
-class Solution:
+class PlusOne:
     def plusOne(self, digits):
         sum=0
         res=[]
