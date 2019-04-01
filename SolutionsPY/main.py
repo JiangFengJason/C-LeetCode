@@ -2,6 +2,8 @@ from PlusOne import PlusOne
 from AddBinary import AddBinary
 from mySqrt import mysqrt
 from ClimbingStairs import climb
+from RemoveDuplicatesfromSortedList import Remove
+from RemoveDuplicatesfromSortedList import ListNode
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -14,5 +16,14 @@ from ClimbingStairs import climb
 # sqrt=mysqrt()
 # print(sqrt.mySqrt(4))
 
-stairs=climb()
-print(stairs.climbStairs(3))
+# stairs=climb()
+# print(stairs.climbStairs(3))
+
+a=ListNode(1)
+a.next=ListNode(1)
+a.next.next=ListNode(2)
+re=Remove()
+result=re.deleteDuplicates(a)
+while result:
+    print(result.val)
+    result=result.next
