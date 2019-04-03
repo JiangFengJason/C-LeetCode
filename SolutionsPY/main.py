@@ -4,6 +4,8 @@ from mySqrt import mysqrt
 from ClimbingStairs import climb
 from RemoveDuplicatesfromSortedList import Remove
 from RemoveDuplicatesfromSortedList import ListNode
+from SameTree import TreeNode
+from SameTree import Same
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -19,11 +21,23 @@ from RemoveDuplicatesfromSortedList import ListNode
 # stairs=climb()
 # print(stairs.climbStairs(3))
 
-a=ListNode(1)
-a.next=ListNode(1)
-a.next.next=ListNode(2)
-re=Remove()
-result=re.deleteDuplicates(a)
-while result:
-    print(result.val)
-    result=result.next
+# a=ListNode(1)
+# a.next=ListNode(1)
+# a.next.next=ListNode(2)
+# re=Remove()
+# result=re.deleteDuplicates(a)
+# while result:
+#     print(result.val)
+#     result=result.next
+
+# a=TreeNode(1)
+# a.left=TreeNode(2)
+# a.right=TreeNode(3)
+
+# b=TreeNode(1)
+# b.left=TreeNode(2)
+# b.right=TreeNode(3)
+
+# isSame=Same()
+# trigger=isSame.isSameTree(a,b)
+# print(trigger)
