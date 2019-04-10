@@ -3,9 +3,11 @@ from AddBinary import AddBinary
 from mySqrt import mysqrt
 from ClimbingStairs import climb
 from RemoveDuplicatesfromSortedList import Remove
-from RemoveDuplicatesfromSortedList import ListNode
+# from RemoveDuplicatesfromSortedList import ListNode
 from SameTree import TreeNode
 from SameTree import Same
+from SwapNodesinPairs import ListNode
+from SwapNodesinPairs import Swap
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
