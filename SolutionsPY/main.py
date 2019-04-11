@@ -8,6 +8,7 @@ from SameTree import TreeNode
 from SameTree import Same
 from SwapNodesinPairs import ListNode
 from SwapNodesinPairs import Swap
+from DivideTwoIntegers import divideTwo
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -43,3 +44,9 @@ from SwapNodesinPairs import Swap
 # isSame=Same()
 # trigger=isSame.isSameTree(a,b)
 # print(trigger)
+
+todivide=divideTwo()
+dividend=10
+divisor=3
+res=todivide.divide(dividend,divisor)
+print(res)
