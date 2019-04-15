@@ -9,6 +9,7 @@ from SameTree import Same
 from SwapNodesinPairs import ListNode
 from SwapNodesinPairs import Swap
 from DivideTwoIntegers import divideTwo
+from RegularExpressionMatching import Regular
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
