@@ -10,6 +10,7 @@ from SwapNodesinPairs import ListNode
 from SwapNodesinPairs import Swap
 from DivideTwoIntegers import divideTwo
 from RegularExpressionMatching import Regular
+from NextPermutation import NextPer
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -46,8 +47,13 @@ from RegularExpressionMatching import Regular
 # trigger=isSame.isSameTree(a,b)
 # print(trigger)
 
-todivide=divideTwo()
-dividend=10
-divisor=3
-res=todivide.divide(dividend,divisor)
+# todivide=divideTwo()
+# dividend=10
+# divisor=3
+# res=todivide.divide(dividend,divisor)
+# print(res)
+
+nums=[1,2,3,4]
+nexP=NextPer()
+res=nexP.nextPermutation(nums)
 print(res)
