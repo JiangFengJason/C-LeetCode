@@ -5,7 +5,7 @@
 
 class NextPer:
     def nextPermutation(self, nums) -> None:
-        if len(nums) <= 1: return nums
+        turn=False
         partition = -1
         for i in range(len(nums)-2, -1, -1):
             if nums[i] < nums[i+1]:
@@ -13,14 +13,14 @@ class NextPer:
                 break
         if partition == -1: 
             nums.reverse()
-            return nums
+            turn=True
         else:
             for i in range(len(nums)-1, partition, -1):
                 if nums[i] > nums[partition]:
                     nums[i],nums[partition] = nums[partition],nums[i]
                     break
-        left = partition+1; right = len(nums)-1
-        while left < right:
-            nums[left],nums[right] = nums[right],nums[left]
-            left+=1; right-=1
-        return nums
+        if turn==False:
+            left = partition+1; right = len(nums)-1
+            while left < right:
+                nums[left],nums[right] = nums[right],nums[left]
+                left+=1; right-=1
