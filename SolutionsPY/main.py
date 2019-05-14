@@ -11,6 +11,7 @@ from SwapNodesinPairs import Swap
 from DivideTwoIntegers import divideTwo
 from RegularExpressionMatching import Regular
 from NextPermutation import NextPer
+from JumpGame import Jump
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -53,7 +54,14 @@ from NextPermutation import NextPer
 # res=todivide.divide(dividend,divisor)
 # print(res)
 
-nums=[1,2,3,4]
-nexP=NextPer()
-res=nexP.nextPermutation(nums)
-print(res)
+# nums=[1,2,3,4]
+# nexP=NextPer()
+# res=nexP.nextPermutation(nums)
+# print(res)
+
+nums=[3,2,1,0,4]
+nums[1:10]=[1]*10
+print (nums)
+nextJump=Jump()
+res=nextJump.canJump(nums)
+print (res)
