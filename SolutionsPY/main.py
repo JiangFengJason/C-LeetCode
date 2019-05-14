@@ -12,6 +12,7 @@ from DivideTwoIntegers import divideTwo
 from RegularExpressionMatching import Regular
 from NextPermutation import NextPer
 from JumpGame import Jump
+from MergeIntervals import MergeInter
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -59,7 +60,12 @@ from JumpGame import Jump
 # res=nexP.nextPermutation(nums)
 # print(res)
 
-nums=[3,2,1,0,4]
-nextJump=Jump()
-res=nextJump.canJump(nums)
+# nums=[3,2,1,0,4]
+# nextJump=Jump()
+# res=nextJump.canJump(nums)
+# print (res)
+
+nums=[[1,4],[0,1]]
+mer=MergeInter()
+res=mer.merge(nums)
 print (res)
