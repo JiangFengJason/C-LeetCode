@@ -60,8 +60,6 @@ from JumpGame import Jump
 # print(res)
 
 nums=[3,2,1,0,4]
-nums[1:10]=[1]*10
-print (nums)
 nextJump=Jump()
 res=nextJump.canJump(nums)
 print (res)
