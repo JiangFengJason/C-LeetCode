@@ -136,12 +136,15 @@ namespace Solutions
             //int[] num = { -1, 0, 1, 2, -1, -4 };
             //IList<IList<int>> res = s.ThreeSum(num);
 
-            MedianofTwoSortedArrays motsa = new MedianofTwoSortedArrays();
-            int[] nums1 = { 1, 3 };
-            int[] nums2 = { 2 };
-            double res;
-            res=motsa.FindMedianSortedArrays(nums1, nums2);
-            Console.WriteLine(res);
+            //MedianofTwoSortedArrays motsa = new MedianofTwoSortedArrays();
+            //int[] nums1 = { 1, 3 };
+            //int[] nums2 = { 2 };
+            //double res;
+            //res=motsa.FindMedianSortedArrays(nums1, nums2);
+            //Console.WriteLine(res);
+
+            ReversMetrix rm = new ReversMetrix();
+            rm.getReasult();
         }
     }
 }
