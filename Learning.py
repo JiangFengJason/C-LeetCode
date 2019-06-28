@@ -139,6 +139,90 @@ book = {'name':'讲义','price':99.9,'publish':'电子'}
 print(temp%book)
 
 
+# In[36]:
+
+
+s_max=input("请输入您想计算的阶乘：")
+mx=int(s_max)
+result=1
+for num in range(1,mx+1):
+    result*=num
+print(result)
+
+
+# In[38]:
+
+
+number=1;
+if isinstance(number,int):
+    print(True)
+    
+
+
+# In[39]:
+
+
+src_list=[12,45,'crazy']
+for item in src_list:
+    if isinstance(item,int):
+        print(item)
+
+
+# In[41]:
+
+
+a_list=[330,1.4,20,'fake']
+for i in range(len(a_list)):
+    print("第%d个元素是%s"%(i+1,a_list[i]))
+    
+
+
+# In[44]:
+
+
+a= ['a','b','c']
+b=[1,2,3]
+c=[0.1,0.2]
+for x in zip(a,b,c):
+    print(x)
+
+
+# In[3]:
+
+
+SIZE=7
+array=[[0]*SIZE]
+j=0
+k=0
+for i in range(SIZE-1):
+    array +=[[0]*SIZE]
+orient=0
+for i in range(1,SIZE*SIZE+1):
+    array[j][k]=i
+    if j+k==SIZE-1:
+        if j>k:
+            orient=1
+        else :
+            orient=2
+    elif (k==j)and (k>SIZE/2):
+        orient=3
+    elif (j==k-1) and (k<=SIZE/2):
+        orient=0
+    
+    if orient ==0:
+        j+=1
+    elif orient==1:
+        k+=1
+    elif orient==2:
+        k-=1
+    elif orient==3:
+        j-=1
+for i in range(SIZE):
+    for j in range(SIZE):
+        print('%02d '%array[i][j],end="")
+    print("")
+
+
 # In[ ]:
 
 
