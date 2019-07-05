@@ -223,6 +223,103 @@ for i in range(SIZE):
     print("")
 
 
+# In[1]:
+
+
+def test(a,*books):
+    for b in books:
+        print(b)
+    print(a)
+test(5,"疯狂","讲义")
+
+
+# In[2]:
+
+
+def foo(name,*nums):
+    print("name参数：",name)
+    print("nums参数：",nums)
+my_list=[1,2,3]
+foo('kit',*my_list)
+
+
+# In[3]:
+
+
+def getmap(data,fn):
+    result=[]
+    for e in data:
+        result.append(fn(e))
+    return result
+def square(n):
+    return n*n
+def cub(n):
+    return n*n*n
+def factorial(n):
+    result=1
+    for index in range(2,n+1):
+        result*=index
+    return result
+data=[3,4,5,6]
+print("原数据：",data)
+print("计算数组元素的平方")
+print(getmap(data,square))
+print("计算数组元素的立方")
+print(getmap(data,cub))
+print("计算数组元素的阶乘")
+print(getmap(data,factorial))
+
+
+# In[5]:
+
+
+class Person:
+    hair='black'
+    def __init__(self,name='Charlie',age=8):
+        self.name=name
+        self.age=age
+    def say(self,content):
+        print(content)
+p=Person()
+print(p.name,p.age)
+p.name='jack'
+print(p.name,p.age)
+
+
+# In[6]:
+
+
+class Bird:
+    @classmethod
+    def fly(cls):
+        print('类方法fly:',cls)
+    @staticmethod
+    def info(p):
+        print('静态方法info:',p)
+Bird.fly()
+Bird.info('crazy')
+b=Bird()
+b.fly()
+b.info('fkit')
+
+
+# In[8]:
+
+
+class User:
+    def __hide(self):
+        print('示范隐藏的hide方法')
+    def getname(self):
+        return self.__name
+    def setname(self,name):
+        if len(name)<3 or len(name)>8:
+            raise ValueError('用户名长度必须在3~8之间')
+        self.__name=name
+    name=property(getname,setname)
+u=User()
+u.name='fk'
+
+
 # In[ ]:
 
 
