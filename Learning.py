@@ -320,6 +320,59 @@ u=User()
 u.name='fk'
 
 
+# In[10]:
+
+
+class Dog:
+    # 只能动态添加slots里面定义好的函数或者变量名
+    __slots__=('walk','age','name')
+    def __init__(self,name):
+        self.name=name
+    def test():
+        print('预先定义的test方法')
+d=Dog('Snoopy')
+from types import MethodType
+d.walk=MethodType(lambda self: print('%s正在慢慢地走'%self.name),d)
+d.age=5
+d.walk()
+#d.foo=30
+
+
+# In[16]:
+
+
+import numpy as np
+a=np.arange(0,72)
+a.reshape((4,3,3,2))
+print(a)
+
+
+# In[28]:
+
+
+import enum
+class Orientation(enum.Enum):
+    EAST='东'
+    SOUTH='南'
+    WEST='西'
+    NORTH='北'
+print(Orientation.EAST.name)
+print(Orientation.EAST.value)
+
+
+# In[30]:
+
+
+class Apple:
+    def __init__(self,color,weight):
+        self.color=color
+        self.weight=weight
+    def __repr__(self):
+        return "Apple:color="+self.color+",weight="+str(self.weight)
+a=Apple("红色",5.68)
+print(a)
+
+
 # In[ ]:
 
 
