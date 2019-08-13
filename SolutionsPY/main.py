@@ -13,6 +13,7 @@ from RegularExpressionMatching import Regular
 from NextPermutation import NextPer
 from JumpGame import Jump
 from MergeIntervals import MergeInter
+from WildcardMatching import Wildcard
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -65,7 +66,13 @@ from MergeIntervals import MergeInter
 # res=nextJump.canJump(nums)
 # print (res)
 
-nums=[[1,4],[0,1]]
-mer=MergeInter()
-res=mer.merge(nums)
-print (res)
+# nums=[[1,4],[0,1]]
+# mer=MergeInter()
+# res=mer.merge(nums)
+# print (res)
+
+s="aa"
+p="*"
+wild=Wildcard()
+res=wild.isMatch(s,p)
+print(res)
