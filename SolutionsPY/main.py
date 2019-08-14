@@ -15,6 +15,7 @@ from JumpGame import Jump
 from MergeIntervals import MergeInter
 from WildcardMatching import Wildcard
 from JumpGameII import JumpG
+from BestTimetoBuyandSellStockII import Best
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -78,7 +79,12 @@ from JumpGameII import JumpG
 # res=wild.isMatch(s,p)
 # print(res)
 
-nums=[2,3,1,1,4]
-j=JumpG()
-res=j.toJump(nums)
+# nums=[2,3,1,1,4]
+# j=JumpG()
+# res=j.toJump(nums)
+# print(res)
+
+prices=[7,1,5,3,6,4]
+b=Best()
+res=b.maxProfit(prices)
 print(res)
