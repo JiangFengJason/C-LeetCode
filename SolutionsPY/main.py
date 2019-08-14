@@ -14,6 +14,7 @@ from NextPermutation import NextPer
 from JumpGame import Jump
 from MergeIntervals import MergeInter
 from WildcardMatching import Wildcard
+from JumpGameII import JumpG
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -71,8 +72,13 @@ from WildcardMatching import Wildcard
 # res=mer.merge(nums)
 # print (res)
 
-s="aa"
-p="*"
-wild=Wildcard()
-res=wild.isMatch(s,p)
+# s="aa"
+# p="*"
+# wild=Wildcard()
+# res=wild.isMatch(s,p)
+# print(res)
+
+nums=[2,3,1,1,4]
+j=JumpG()
+res=j.toJump(nums)
 print(res)

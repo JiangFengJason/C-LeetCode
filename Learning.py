@@ -153,7 +153,7 @@ print(result)
 # In[38]:
 
 
-number=1;
+number=1
 if isinstance(number,int):
     print(True)
     
