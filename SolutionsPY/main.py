@@ -16,6 +16,7 @@ from MergeIntervals import MergeInter
 from WildcardMatching import Wildcard
 from JumpGameII import JumpG
 from BestTimetoBuyandSellStockII import Best
+from GasStation import GasStat
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -84,7 +85,13 @@ from BestTimetoBuyandSellStockII import Best
 # res=j.toJump(nums)
 # print(res)
 
-prices=[7,1,5,3,6,4]
-b=Best()
-res=b.maxProfit(prices)
+# prices=[7,1,5,3,6,4]
+# b=Best()
+# res=b.maxProfit(prices)
+# print(res)
+
+gas=[1,2,3,4,5]
+cost = [3,4,5,1,2]
+gasStat=GasStat()
+res=gasStat.canCompleteCircuit(gas,cost)
 print(res)
