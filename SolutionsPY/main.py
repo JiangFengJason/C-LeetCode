@@ -17,6 +17,7 @@ from WildcardMatching import Wildcard
 from JumpGameII import JumpG
 from BestTimetoBuyandSellStockII import Best
 from GasStation import GasStat
+from Candy import Can
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -90,8 +91,13 @@ from GasStation import GasStat
 # res=b.maxProfit(prices)
 # print(res)
 
-gas=[1,2,3,4,5]
-cost = [3,4,5,1,2]
-gasStat=GasStat()
-res=gasStat.canCompleteCircuit(gas,cost)
-print(res)
+# gas=[1,2,3,4,5]
+# cost = [3,4,5,1,2]
+# gasStat=GasStat()
+# res=gasStat.canCompleteCircuit(gas,cost)
+# print(res)
+
+ratings=[1,3,2,2,1]
+c=Can()
+res=c.candy(ratings)
+print (res)
