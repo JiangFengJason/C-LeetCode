@@ -20,6 +20,7 @@ from GasStation import GasStat
 from Candy import Can
 from RemoveDuplicateLetters import RemoveDuplicated
 from CreateMaximumNumber import CreateMaximum
+from LongestPalindromicSubstring import LongestPalindromicSub
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -109,9 +110,14 @@ from CreateMaximumNumber import CreateMaximum
 # res=r.removeDuplicateLetters(s)
 # print(res)
 
-nums1 = [3, 4, 6, 5]
-nums2 = [9, 1, 2, 5, 8, 3]
-k = 5
-c=CreateMaximum()
-res=c.maxNumber(nums1,nums2,k)
+# nums1 = [3, 4, 6, 5]
+# nums2 = [9, 1, 2, 5, 8, 3]
+# k = 5
+# c=CreateMaximum()
+# res=c.maxNumber(nums1,nums2,k)
+# print(res)
+
+s="cbbd"
+l=LongestPalindromicSub()
+res=l.longestPalindrome(s)
 print(res)
