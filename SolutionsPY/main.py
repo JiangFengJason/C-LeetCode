@@ -18,6 +18,8 @@ from JumpGameII import JumpG
 from BestTimetoBuyandSellStockII import Best
 from GasStation import GasStat
 from Candy import Can
+from RemoveDuplicateLetters import RemoveDuplicated
+from CreateMaximumNumber import CreateMaximum
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -97,7 +99,19 @@ from Candy import Can
 # res=gasStat.canCompleteCircuit(gas,cost)
 # print(res)
 
-ratings=[1,3,2,2,1]
-c=Can()
-res=c.candy(ratings)
-print (res)
+# ratings=[1,3,2,2,1]
+# c=Can()
+# res=c.candy(ratings)
+# print (res)
+
+# s="cbacdcbc"
+# r=RemoveDuplicated()
+# res=r.removeDuplicateLetters(s)
+# print(res)
+
+nums1 = [3, 4, 6, 5]
+nums2 = [9, 1, 2, 5, 8, 3]
+k = 5
+c=CreateMaximum()
+res=c.maxNumber(nums1,nums2,k)
+print(res)
