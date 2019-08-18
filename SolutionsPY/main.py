@@ -21,6 +21,7 @@ from Candy import Can
 from RemoveDuplicateLetters import RemoveDuplicated
 from CreateMaximumNumber import CreateMaximum
 from LongestPalindromicSubstring import LongestPalindromicSub
+from ThreeSumClosest import SumClosest
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -117,7 +118,13 @@ from LongestPalindromicSubstring import LongestPalindromicSub
 # res=c.maxNumber(nums1,nums2,k)
 # print(res)
 
-s="cbbd"
-l=LongestPalindromicSub()
-res=l.longestPalindrome(s)
+# s="cbbd"
+# l=LongestPalindromicSub()
+# res=l.longestPalindrome(s)
+# print(res)
+
+nums = [-1, 2, 1, -4]
+target = 1
+s=SumClosest()
+res=s.threeSumClosest(nums,target)
 print(res)
