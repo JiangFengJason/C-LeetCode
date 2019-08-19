@@ -22,6 +22,7 @@ from RemoveDuplicateLetters import RemoveDuplicated
 from CreateMaximumNumber import CreateMaximum
 from LongestPalindromicSubstring import LongestPalindromicSub
 from ThreeSumClosest import SumClosest
+from SearchinRotatedSortedArray import SearchinRotatedSorted
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -123,8 +124,14 @@ from ThreeSumClosest import SumClosest
 # res=l.longestPalindrome(s)
 # print(res)
 
-nums = [-1, 2, 1, -4]
-target = 1
-s=SumClosest()
-res=s.threeSumClosest(nums,target)
+# nums = [-1, 2, 1, -4]
+# target = 1
+# s=SumClosest()
+# res=s.threeSumClosest(nums,target)
+# print(res)
+
+nums=[4,5,6,7,0,1,2]
+target=0
+s=SearchinRotatedSorted()
+res=s.search(nums,target)
 print(res)
