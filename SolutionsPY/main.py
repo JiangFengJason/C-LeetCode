@@ -23,6 +23,7 @@ from CreateMaximumNumber import CreateMaximum
 from LongestPalindromicSubstring import LongestPalindromicSub
 from ThreeSumClosest import SumClosest
 from SearchinRotatedSortedArray import SearchinRotatedSorted
+from BestTimetoBuyandSellStock import BestTimetoBuy
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -119,7 +120,7 @@ from SearchinRotatedSortedArray import SearchinRotatedSorted
 # res=c.maxNumber(nums1,nums2,k)
 # print(res)
 
-# s="cbbd"
+# s="cbbdbabad"
 # l=LongestPalindromicSub()
 # res=l.longestPalindrome(s)
 # print(res)
@@ -130,8 +131,13 @@ from SearchinRotatedSortedArray import SearchinRotatedSorted
 # res=s.threeSumClosest(nums,target)
 # print(res)
 
-nums=[4,5,6,7,0,1,2]
-target=0
-s=SearchinRotatedSorted()
-res=s.search(nums,target)
+# nums=[4,5,6,7,0,1,2]
+# target=0
+# s=SearchinRotatedSorted()
+# res=s.search(nums,target)
+# print(res)
+
+prices=[7,1,5,3,6,4]
+b=BestTimetoBuy()
+res=b.maxProfit(prices)
 print(res)
