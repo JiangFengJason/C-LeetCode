@@ -26,6 +26,7 @@ from SearchinRotatedSortedArray import SearchinRotatedSorted
 from BestTimetoBuyandSellStock import BestTimetoBuy
 from MergekSortedLists import MergeKsorted
 from MultiplyStrings import multiplyStrings
+from Permutations import Permu
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -144,8 +145,13 @@ from MultiplyStrings import multiplyStrings
 # res=b.maxProfit(prices)
 # print(res)
 
-nums1="123"
-nums2="456"
-m=multiplyStrings()
-ans=m.multiply(nums1,nums2)
-print(ans)
+# nums1="123"
+# nums2="456"
+# m=multiplyStrings()
+# ans=m.multiply(nums1,nums2)
+# print(ans)
+
+nums=[1,2,3]
+p=Permu()
+res=p.permute(nums)
+print(res)

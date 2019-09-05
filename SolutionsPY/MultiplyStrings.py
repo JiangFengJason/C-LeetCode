@@ -16,3 +16,4 @@ class multiplyStrings:
         while ans[0] == '0' and len(ans) > 1:
             del ans[0]
         return ''.join(ans)
+        # return str(int(num1)*int(num2))
