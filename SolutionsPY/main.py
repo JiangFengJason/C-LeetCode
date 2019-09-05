@@ -27,6 +27,7 @@ from BestTimetoBuyandSellStock import BestTimetoBuy
 from MergekSortedLists import MergeKsorted
 from MultiplyStrings import multiplyStrings
 from Permutations import Permu
+from SpiralMatrixII import Sprial
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -151,7 +152,12 @@ from Permutations import Permu
 # ans=m.multiply(nums1,nums2)
 # print(ans)
 
-nums=[1,2,3]
-p=Permu()
-res=p.permute(nums)
-print(res)
+# nums=[1,2,3]
+# p=Permu()
+# res=p.permute(nums)
+# print(res)
+
+n=3
+s=Sprial()
+matrix=s.generateMatrix(n)
+print(matrix)
