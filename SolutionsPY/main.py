@@ -28,6 +28,7 @@ from MergekSortedLists import MergeKsorted
 from MultiplyStrings import multiplyStrings
 from Permutations import Permu
 from SpiralMatrixII import Sprial
+from RotateList import RotateL
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -157,7 +158,18 @@ from SpiralMatrixII import Sprial
 # res=p.permute(nums)
 # print(res)
 
-n=3
-s=Sprial()
-matrix=s.generateMatrix(n)
-print(matrix)
+# n=3
+# s=Sprial()
+# matrix=s.generateMatrix(n)
+# print(matrix)
+
+l=ListNode(0)
+p=l
+for i in range(1,6):
+    p.next=ListNode(i)
+    p=p.next
+r=RotateL()
+res=r.rotateRight(l.next,2)
+while res:
+    print(res.val)
+    res=res.next
