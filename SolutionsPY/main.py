@@ -29,6 +29,7 @@ from MultiplyStrings import multiplyStrings
 from Permutations import Permu
 from SpiralMatrixII import Sprial
 from RotateList import RotateL
+from UniquePaths import Unique
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -163,13 +164,19 @@ from RotateList import RotateL
 # matrix=s.generateMatrix(n)
 # print(matrix)
 
-l=ListNode(0)
-p=l
-for i in range(1,6):
-    p.next=ListNode(i)
-    p=p.next
-r=RotateL()
-res=r.rotateRight(l.next,2)
-while res:
-    print(res.val)
-    res=res.next
+# l=ListNode(0)
+# p=l
+# for i in range(1,6):
+#     p.next=ListNode(i)
+#     p=p.next
+# r=RotateL()
+# res=r.rotateRight(l.next,2)
+# while res:
+#     print(res.val)
+#     res=res.next
+
+m=4
+n=4
+u=Unique()
+res=u.uniquePaths(m,n)
+print(res)
