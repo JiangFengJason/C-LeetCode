@@ -30,6 +30,7 @@ from Permutations import Permu
 from SpiralMatrixII import Sprial
 from RotateList import RotateL
 from UniquePaths import Unique
+from Subsets import SubSet
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -175,8 +176,13 @@ from UniquePaths import Unique
 #     print(res.val)
 #     res=res.next
 
-m=4
-n=4
-u=Unique()
-res=u.uniquePaths(m,n)
+# m=4
+# n=4
+# u=Unique()
+# res=u.uniquePaths(m,n)
+# print(res)
+
+nums=[1,2,3]
+s=SubSet()
+res=s.subsets(nums)
 print(res)
