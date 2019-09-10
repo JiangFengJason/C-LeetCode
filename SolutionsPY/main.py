@@ -32,6 +32,7 @@ from RotateList import RotateL
 from UniquePaths import Unique
 from Subsets import SubSet
 from MergeSortedArray import MergeSortedArra
+from GrayCode import Gray
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -188,10 +189,15 @@ from MergeSortedArray import MergeSortedArra
 # res=s.subsets(nums)
 # print(res)
 
-nums1=[1,2,3,0,0,0]
-m=3
-nums2=[2,5,6]
-n=3
-mer=MergeSortedArra()
-res=mer.merge(nums1,m,nums2,n)
+# nums1=[1,2,3,0,0,0]
+# m=3
+# nums2=[2,5,6]
+# n=3
+# mer=MergeSortedArra()
+# res=mer.merge(nums1,m,nums2,n)
+# print(res)
+
+n=2
+g=Gray()
+res=g.grayCode(n)
 print(res)
