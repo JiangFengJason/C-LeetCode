@@ -31,6 +31,7 @@ from SpiralMatrixII import Sprial
 from RotateList import RotateL
 from UniquePaths import Unique
 from Subsets import SubSet
+from MergeSortedArray import MergeSortedArra
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -182,7 +183,15 @@ from Subsets import SubSet
 # res=u.uniquePaths(m,n)
 # print(res)
 
-nums=[1,2,3]
-s=SubSet()
-res=s.subsets(nums)
+# nums=[1,2,3]
+# s=SubSet()
+# res=s.subsets(nums)
+# print(res)
+
+nums1=[1,2,3,0,0,0]
+m=3
+nums2=[2,5,6]
+n=3
+mer=MergeSortedArra()
+res=mer.merge(nums1,m,nums2,n)
 print(res)
