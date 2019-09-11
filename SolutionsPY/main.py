@@ -33,6 +33,7 @@ from UniquePaths import Unique
 from Subsets import SubSet
 from MergeSortedArray import MergeSortedArra
 from GrayCode import Gray
+from BinaryTreeMaximumPathSum import BinaryTree
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -197,7 +198,21 @@ from GrayCode import Gray
 # res=mer.merge(nums1,m,nums2,n)
 # print(res)
 
-n=2
-g=Gray()
-res=g.grayCode(n)
+# n=2
+# g=Gray()
+# res=g.grayCode(n)
+# print(res)
+
+a=TreeNode(1)
+a.left=TreeNode(2)
+a.right=TreeNode(3)
+
+b=TreeNode(-10)
+b.left=TreeNode(9)
+b.right=TreeNode(20)
+b.right.left=TreeNode(15)
+b.right.right=TreeNode(7)
+
+binary=BinaryTree()
+res=binary.maxPathSum(b)
 print(res)
