@@ -34,6 +34,7 @@ from Subsets import SubSet
 from MergeSortedArray import MergeSortedArra
 from GrayCode import Gray
 from BinaryTreeMaximumPathSum import BinaryTree
+from MinStack import MinS
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -203,16 +204,26 @@ from BinaryTreeMaximumPathSum import BinaryTree
 # res=g.grayCode(n)
 # print(res)
 
-a=TreeNode(1)
-a.left=TreeNode(2)
-a.right=TreeNode(3)
+# a=TreeNode(1)
+# a.left=TreeNode(2)
+# a.right=TreeNode(3)
+# b=TreeNode(-10)
+# b.left=TreeNode(9)
+# b.right=TreeNode(20)
+# b.right.left=TreeNode(15)
+# b.right.right=TreeNode(7)
+# binary=BinaryTree()
+# res=binary.maxPathSum(b)
+# print(res)
 
-b=TreeNode(-10)
-b.left=TreeNode(9)
-b.right=TreeNode(20)
-b.right.left=TreeNode(15)
-b.right.right=TreeNode(7)
-
-binary=BinaryTree()
-res=binary.maxPathSum(b)
-print(res)
+minStack=MinS()
+minStack.push(512)
+minStack.push(-1024)
+minStack.push(-1024)
+minStack.push(512)
+minStack.pop()
+minStack.getMin()
+minStack.pop()
+minStack.getMin()
+minStack.pop()
+minStack.getMin()
