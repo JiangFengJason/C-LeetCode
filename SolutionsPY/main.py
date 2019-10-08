@@ -35,6 +35,7 @@ from MergeSortedArray import MergeSortedArra
 from GrayCode import Gray
 from BinaryTreeMaximumPathSum import BinaryTree
 from MinStack import MinS
+from MajorityElement import MajorityEl
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -228,3 +229,7 @@ from MinStack import MinS
 # minStack.pop()
 # minStack.getMin()
 
+m=MajorityEl()
+nums=[2,2,1,1,1,2,2]
+res=m.majorityElement(nums)
+print (res)
