@@ -36,6 +36,7 @@ from GrayCode import Gray
 from BinaryTreeMaximumPathSum import BinaryTree
 from MinStack import MinS
 from MajorityElement import MajorityEl
+from KthLargestElementinanArray import KthLargestElement
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -229,7 +230,13 @@ from MajorityElement import MajorityEl
 # minStack.pop()
 # minStack.getMin()
 
-m=MajorityEl()
-nums=[2,2,1,1,1,2,2]
-res=m.majorityElement(nums)
-print (res)
+# m=MajorityEl()
+# nums=[2,2,1,1,1,2,2]
+# res=m.majorityElement(nums)
+# print (res)
+
+kth=KthLargestElement()
+nums=[3,2,3,1,2,4,5,5,6]
+k=4
+res=kth.findKthLargest(nums,k)
+print(res)
