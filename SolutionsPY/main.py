@@ -37,6 +37,7 @@ from BinaryTreeMaximumPathSum import BinaryTree
 from MinStack import MinS
 from MajorityElement import MajorityEl
 from KthLargestElementinanArray import KthLargestElement
+from ContainsDuplicate import ContainsDu
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -235,8 +236,13 @@ from KthLargestElementinanArray import KthLargestElement
 # res=m.majorityElement(nums)
 # print (res)
 
-kth=KthLargestElement()
-nums=[3,2,3,1,2,4,5,5,6]
-k=4
-res=kth.findKthLargest(nums,k)
+# kth=KthLargestElement()
+# nums=[3,2,3,1,2,4,5,5,6]
+# k=4
+# res=kth.findKthLargest(nums,k)
+# print(res)
+
+c=ContainsDu()
+nums=[1,3,4,2]
+res=c.containsDuplicate(nums)
 print(res)
