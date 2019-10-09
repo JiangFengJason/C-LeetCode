@@ -38,6 +38,7 @@ from MinStack import MinS
 from MajorityElement import MajorityEl
 from KthLargestElementinanArray import KthLargestElement
 from ContainsDuplicate import ContainsDu
+from KthSmallestElementinaBST import KthSmallestElement
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -242,7 +243,8 @@ from ContainsDuplicate import ContainsDu
 # res=kth.findKthLargest(nums,k)
 # print(res)
 
-c=ContainsDu()
-nums=[1,3,4,2]
-res=c.containsDuplicate(nums)
-print(res)
+# c=ContainsDu()
+# nums=[1,3,4,2]
+# res=c.containsDuplicate(nums)
+# print(res)
+
