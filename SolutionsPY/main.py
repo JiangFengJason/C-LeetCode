@@ -39,6 +39,7 @@ from MajorityElement import MajorityEl
 from KthLargestElementinanArray import KthLargestElement
 from ContainsDuplicate import ContainsDu
 from KthSmallestElementinaBST import KthSmallestElement
+from PowerofTwo import Power
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -248,3 +249,7 @@ from KthSmallestElementinaBST import KthSmallestElement
 # res=c.containsDuplicate(nums)
 # print(res)
 
+p=Power()
+n=16
+res=p.isPowerOfTwo(n)
+print(res)
