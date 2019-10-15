@@ -40,6 +40,8 @@ from KthLargestElementinanArray import KthLargestElement
 from ContainsDuplicate import ContainsDu
 from KthSmallestElementinaBST import KthSmallestElement
 from PowerofTwo import Power
+from ProductofArrayExceptSelf import ProductofArray
+from ReverseWordsinaStringIII import ReverseWordsinaString
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -249,7 +251,17 @@ from PowerofTwo import Power
 # res=c.containsDuplicate(nums)
 # print(res)
 
-p=Power()
-n=16
-res=p.isPowerOfTwo(n)
+# p=Power()
+# n=16
+# res=p.isPowerOfTwo(n)
+# print(res)
+
+# p=ProductofArray()
+# nums=[1,2,3,4]
+# res=p.productExceptSelf(nums)
+# print(res)
+
+r=ReverseWordsinaString()
+s="Let's take LeetCode contest"
+res=r.reverseWords(s)
 print(res)
