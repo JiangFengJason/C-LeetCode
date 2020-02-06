@@ -41,6 +41,8 @@ from ContainsDuplicate import ContainsDu
 from KthSmallestElementinaBST import KthSmallestElement
 from PowerofTwo import Power
 from FindFirstandLastPositionofElementinSortedArray import FindFirstandLastPosition
+from ProductofArrayExceptSelf import ProductofArray
+from ReverseWordsinaStringIII import ReverseWordsinaString
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -255,8 +257,19 @@ from FindFirstandLastPositionofElementinSortedArray import FindFirstandLastPosit
 # res=p.isPowerOfTwo(n)
 # print(res)
 
+<<<<<<< HEAD
 f=FindFirstandLastPosition()
 nums=[5,7,7,8,8,10]
 target =8
 res=f.searchRange(nums,target)
+=======
+# p=ProductofArray()
+# nums=[1,2,3,4]
+# res=p.productExceptSelf(nums)
+# print(res)
+
+r=ReverseWordsinaString()
+s="Let's take LeetCode contest"
+res=r.reverseWords(s)
+>>>>>>> 9a434ba0dd980f92021acc17e51c348b0d1a4eda
 print(res)
