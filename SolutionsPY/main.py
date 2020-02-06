@@ -40,6 +40,7 @@ from KthLargestElementinanArray import KthLargestElement
 from ContainsDuplicate import ContainsDu
 from KthSmallestElementinaBST import KthSmallestElement
 from PowerofTwo import Power
+from FindFirstandLastPositionofElementinSortedArray import FindFirstandLastPosition
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -249,7 +250,13 @@ from PowerofTwo import Power
 # res=c.containsDuplicate(nums)
 # print(res)
 
-p=Power()
-n=16
-res=p.isPowerOfTwo(n)
+# p=Power()
+# n=16
+# res=p.isPowerOfTwo(n)
+# print(res)
+
+f=FindFirstandLastPosition()
+nums=[5,7,7,8,8,10]
+target =8
+res=f.searchRange(nums,target)
 print(res)
