@@ -44,6 +44,8 @@ from FindFirstandLastPositionofElementinSortedArray import FindFirstandLastPosit
 from ProductofArrayExceptSelf import ProductofArray
 from ReverseWordsinaStringIII import ReverseWordsinaString
 from CombinationSum import CombinationS
+from GroupAnagrams import GroupAnag
+
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -273,8 +275,13 @@ from CombinationSum import CombinationS
 # res=r.reverseWords(s)
 # print(res)
 
-c=CombinationS()
-candidates = [2,3,5]
-target = 8
-res=c.combinationSum(candidates,target)
+# c=CombinationS()
+# candidates = [2,3,5]
+# target = 8
+# res=c.combinationSum(candidates,target)
+# print(res)
+
+g=GroupAnag()
+strs=["eat", "tea", "tan", "ate", "nat", "bat"]
+res=g.groupAnagrams(strs)
 print(res)
