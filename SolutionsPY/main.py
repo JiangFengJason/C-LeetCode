@@ -46,6 +46,7 @@ from ReverseWordsinaStringIII import ReverseWordsinaString
 from CombinationSum import CombinationS
 from GroupAnagrams import GroupAnag
 from MinimumPathSum import MinimusPath
+from SortColors import SortColor
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -286,7 +287,12 @@ from MinimumPathSum import MinimusPath
 # res=g.groupAnagrams(strs)
 # print(res)
 
-m=MinimusPath()
-grid=[[1,3,1],[1,5,1],[4,2,1]]
-res=m.minPathSum(grid)
+# m=MinimusPath()
+# grid=[[1,3,1],[1,5,1],[4,2,1]]
+# res=m.minPathSum(grid)
+# print(res)
+
+s=SortColor()
+nums=[2,0,2,1,1,0]
+res=s.sortColors(nums)
 print(res)
