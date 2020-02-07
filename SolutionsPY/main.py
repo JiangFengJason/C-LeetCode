@@ -45,7 +45,7 @@ from ProductofArrayExceptSelf import ProductofArray
 from ReverseWordsinaStringIII import ReverseWordsinaString
 from CombinationSum import CombinationS
 from GroupAnagrams import GroupAnag
-
+from MinimumPathSum import MinimusPath
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -281,7 +281,12 @@ from GroupAnagrams import GroupAnag
 # res=c.combinationSum(candidates,target)
 # print(res)
 
-g=GroupAnag()
-strs=["eat", "tea", "tan", "ate", "nat", "bat"]
-res=g.groupAnagrams(strs)
+# g=GroupAnag()
+# strs=["eat", "tea", "tan", "ate", "nat", "bat"]
+# res=g.groupAnagrams(strs)
+# print(res)
+
+m=MinimusPath()
+grid=[[1,3,1],[1,5,1],[4,2,1]]
+res=m.minPathSum(grid)
 print(res)
