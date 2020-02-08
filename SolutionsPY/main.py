@@ -47,6 +47,7 @@ from CombinationSum import CombinationS
 from GroupAnagrams import GroupAnag
 from MinimumPathSum import MinimusPath
 from SortColors import SortColor
+from WordSearch import WordSear
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -292,7 +293,13 @@ from SortColors import SortColor
 # res=m.minPathSum(grid)
 # print(res)
 
-s=SortColor()
-nums=[2,0,2,1,1,0]
-res=s.sortColors(nums)
+# s=SortColor()
+# nums=[2,0,2,1,1,0]
+# res=s.sortColors(nums)
+# print(res)
+
+w=WordSear()
+board=[["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]
+word="ABCCED"
+res=w.exist(board,word)
 print(res)
