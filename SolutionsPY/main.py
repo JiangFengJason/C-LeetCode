@@ -48,6 +48,7 @@ from GroupAnagrams import GroupAnag
 from MinimumPathSum import MinimusPath
 from SortColors import SortColor
 from WordSearch import WordSear
+from UniqueBinarySearchTrees import UniqueBinarySearch
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -298,8 +299,13 @@ from WordSearch import WordSear
 # res=s.sortColors(nums)
 # print(res)
 
-w=WordSear()
-board=[["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]
-word="ABCCED"
-res=w.exist(board,word)
+# w=WordSear()
+# board=[["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]
+# word="ABCCED"
+# res=w.exist(board,word)
+# print(res)
+
+u=UniqueBinarySearch()
+n=3
+res=u.numTrees(n)
 print(res)
