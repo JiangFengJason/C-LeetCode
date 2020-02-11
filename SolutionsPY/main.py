@@ -50,6 +50,7 @@ from SortColors import SortColor
 from WordSearch import WordSear
 from UniqueBinarySearchTrees import UniqueBinarySearch
 from WordBreak import WordBrea
+from MaximumProductSubarray import MaximumProdect
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -311,8 +312,13 @@ from WordBreak import WordBrea
 # res=u.numTrees(n)
 # print(res)
 
-w=WordBrea()
-s = "leetcode"
-wordDict = ["leet", "code"]
-res=w.wordBreak(s,wordDict)
+# w=WordBrea()
+# s = "leetcode"
+# wordDict = ["leet", "code"]
+# res=w.wordBreak(s,wordDict)
+# print(res)
+
+m=MaximumProdect()
+nums=[-2,0,-1]
+res=m.maxProduct(nums)
 print(res)
