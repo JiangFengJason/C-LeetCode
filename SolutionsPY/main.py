@@ -49,6 +49,7 @@ from MinimumPathSum import MinimusPath
 from SortColors import SortColor
 from WordSearch import WordSear
 from UniqueBinarySearchTrees import UniqueBinarySearch
+from WordBreak import WordBrea
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -305,7 +306,13 @@ from UniqueBinarySearchTrees import UniqueBinarySearch
 # res=w.exist(board,word)
 # print(res)
 
-u=UniqueBinarySearch()
-n=3
-res=u.numTrees(n)
+# u=UniqueBinarySearch()
+# n=3
+# res=u.numTrees(n)
+# print(res)
+
+w=WordBrea()
+s = "leetcode"
+wordDict = ["leet", "code"]
+res=w.wordBreak(s,wordDict)
 print(res)
