@@ -51,6 +51,7 @@ from WordSearch import WordSear
 from UniqueBinarySearchTrees import UniqueBinarySearch
 from WordBreak import WordBrea
 from MaximumProductSubarray import MaximumProdect
+from HouseRobber import HouseRobb
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -318,7 +319,12 @@ from MaximumProductSubarray import MaximumProdect
 # res=w.wordBreak(s,wordDict)
 # print(res)
 
-m=MaximumProdect()
-nums=[-2,0,-1]
-res=m.maxProduct(nums)
+# m=MaximumProdect()
+# nums=[-2,0,-1]
+# res=m.maxProduct(nums)
+# print(res)
+
+h=HouseRobb()
+nums=[1,2,3,1]
+res=h.rob(nums)
 print(res)
