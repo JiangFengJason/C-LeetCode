@@ -52,6 +52,7 @@ from UniqueBinarySearchTrees import UniqueBinarySearch
 from WordBreak import WordBrea
 from MaximumProductSubarray import MaximumProdect
 from HouseRobber import HouseRobb
+from CourseSchedule import CourseSchedu
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -324,7 +325,13 @@ from HouseRobber import HouseRobb
 # res=m.maxProduct(nums)
 # print(res)
 
-h=HouseRobb()
-nums=[1,2,3,1]
-res=h.rob(nums)
+# h=HouseRobb()
+# nums=[1,2,3,1]
+# res=h.rob(nums)
+# print(res)
+
+c=CourseSchedu()
+numCourses=2
+prerequisites=[[1,0],[0,1]]
+res=c.canFinish(numCourses,prerequisites)
 print(res)
