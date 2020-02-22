@@ -335,3 +335,4 @@ numCourses=2
 prerequisites=[[1,0],[0,1]]
 res=c.canFinish(numCourses,prerequisites)
 print(res)
+
