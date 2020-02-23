@@ -53,6 +53,7 @@ from WordBreak import WordBrea
 from MaximumProductSubarray import MaximumProdect
 from HouseRobber import HouseRobb
 from CourseSchedule import CourseSchedu
+from PerfectSquares import PerfectSquare
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -330,9 +331,13 @@ from CourseSchedule import CourseSchedu
 # res=h.rob(nums)
 # print(res)
 
-c=CourseSchedu()
-numCourses=2
-prerequisites=[[1,0],[0,1]]
-res=c.canFinish(numCourses,prerequisites)
-print(res)
+# c=CourseSchedu()
+# numCourses=2
+# prerequisites=[[1,0],[0,1]]
+# res=c.canFinish(numCourses,prerequisites)
+# print(res)
 
+p=PerfectSquare()
+n=12
+res=p.numSquares(n)
+print(res)
