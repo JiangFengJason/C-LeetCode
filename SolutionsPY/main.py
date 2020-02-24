@@ -54,6 +54,7 @@ from MaximumProductSubarray import MaximumProdect
 from HouseRobber import HouseRobb
 from CourseSchedule import CourseSchedu
 from PerfectSquares import PerfectSquare
+from FindtheDuplicateNumber import FindtheDuplicateN
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -337,7 +338,12 @@ from PerfectSquares import PerfectSquare
 # res=c.canFinish(numCourses,prerequisites)
 # print(res)
 
-p=PerfectSquare()
-n=12
-res=p.numSquares(n)
+# p=PerfectSquare()
+# n=12
+# res=p.numSquares(n)
+# print(res)
+
+f=FindtheDuplicateN()
+nums=[3,1,3,4,2]
+res=f.findDuplicate(nums)
 print(res)
