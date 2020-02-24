@@ -56,6 +56,7 @@ from CourseSchedule import CourseSchedu
 from PerfectSquares import PerfectSquare
 from FindtheDuplicateNumber import FindtheDuplicateN
 from LongestIncreasingSubsequence import LongestIncreasingSub
+from BestTimetoBuyandSellStockwithCooldown import BestTimetoButandSellStock
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -349,7 +350,12 @@ from LongestIncreasingSubsequence import LongestIncreasingSub
 # res=f.findDuplicate(nums)
 # print(res)
 
-l=LongestIncreasingSub()
-nums=[10,9,2,5,3,7,101,18]
-res=l.lengthOfLIS(nums)
+# l=LongestIncreasingSub()
+# nums=[10,9,2,5,3,7,101,18]
+# res=l.lengthOfLIS(nums)
+# print(res)
+
+b=BestTimetoButandSellStock()
+prices=[1,2,3,0,2]
+res=b.maxProfit(prices)
 print(res)
