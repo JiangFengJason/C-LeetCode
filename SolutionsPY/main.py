@@ -55,6 +55,7 @@ from HouseRobber import HouseRobb
 from CourseSchedule import CourseSchedu
 from PerfectSquares import PerfectSquare
 from FindtheDuplicateNumber import FindtheDuplicateN
+from LongestIncreasingSubsequence import LongestIncreasingSub
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -343,7 +344,12 @@ from FindtheDuplicateNumber import FindtheDuplicateN
 # res=p.numSquares(n)
 # print(res)
 
-f=FindtheDuplicateN()
-nums=[3,1,3,4,2]
-res=f.findDuplicate(nums)
+# f=FindtheDuplicateN()
+# nums=[3,1,3,4,2]
+# res=f.findDuplicate(nums)
+# print(res)
+
+l=LongestIncreasingSub()
+nums=[10,9,2,5,3,7,101,18]
+res=l.lengthOfLIS(nums)
 print(res)
