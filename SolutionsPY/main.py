@@ -57,6 +57,7 @@ from PerfectSquares import PerfectSquare
 from FindtheDuplicateNumber import FindtheDuplicateN
 from LongestIncreasingSubsequence import LongestIncreasingSub
 from BestTimetoBuyandSellStockwithCooldown import BestTimetoButandSellStock
+from CoinChange import CoinC
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -355,7 +356,14 @@ from BestTimetoBuyandSellStockwithCooldown import BestTimetoButandSellStock
 # res=l.lengthOfLIS(nums)
 # print(res)
 
-b=BestTimetoButandSellStock()
-prices=[1,2,3,0,2]
-res=b.maxProfit(prices)
+# 注意查看力扣上的6题股票问题套路
+# b=BestTimetoButandSellStock()
+# prices=[1,2,3,0,2]
+# res=b.maxProfit(prices)
+# print(res)
+
+c=CoinC()
+coins = [1, 2, 5]
+amount = 11
+res=c.coinChange(coins,amount)
 print(res)
