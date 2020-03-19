@@ -58,6 +58,7 @@ from FindtheDuplicateNumber import FindtheDuplicateN
 from LongestIncreasingSubsequence import LongestIncreasingSub
 from BestTimetoBuyandSellStockwithCooldown import BestTimetoButandSellStock
 from CoinChange import CoinC
+from LongestPalindrome import LongestPalindr
 
 # digit=[1,0,0,0,0]
 # PlusOne=PlusOne()
@@ -362,8 +363,13 @@ from CoinChange import CoinC
 # res=b.maxProfit(prices)
 # print(res)
 
-c=CoinC()
-coins = [1, 2, 5]
-amount = 11
-res=c.coinChange(coins,amount)
+# c=CoinC()
+# coins = [1, 2, 5]
+# amount = 11
+# res=c.coinChange(coins,amount)
+# print(res)
+
+l=LongestPalindr()
+s="abccccdd"
+res=l.longestPalindrome(s)
 print(res)
